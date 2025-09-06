@@ -14,10 +14,10 @@
 ## 📋 方案步骤
 
 ### 第一步：收集文件
-使用Python脚本（`01提取CAJ.py`），批量自动遍历识别并移动CAJ/KDH/NH文件到指定文件夹，并将文件的原始位置保存到JSON文件。
+使用Python脚本（`[01提取CAJ.py](https://github.com/maguang/caj2pdf/blob/main/01%E6%8F%90%E5%8F%96caj%20.py)`），批量自动遍历识别并移动CAJ/KDH/NH文件到指定文件夹，并将文件的原始位置保存到JSON文件。
 
 **依赖要求**：
-- Python 3.6+
+- [Python](https://www.python.org/) 3.6+
 - 无需额外库（仅使用标准库）
 
 **使用方法**：
@@ -37,10 +37,10 @@
 4. 将PDF文件保存到指定目录（建议与第一步的目标目录同级，命名为`output_pdfs`）
 
 ### 第三步：回迁PDF
-使用Python脚本（`02回迁PDF.py`），读取第一步保存的JSON文件，将PDF移动到对应的CAJ原位置。成功后，删除CAJ即可。
+使用Python脚本（`[02回迁PDF.py](https://github.com/maguang/caj2pdf/blob/main/02%E5%9B%9E%E8%BF%81PDF.py]`），读取第一步保存的JSON文件，将PDF移动到对应的CAJ原位置。成功后，删除CAJ即可。
 
 **依赖要求**：
-- Python 3.6+
+- [Python](https://www.python.org/) 3.6+
 - 无需额外库（仅使用标准库）
 
 **使用方法**：
@@ -55,10 +55,10 @@
 1. **官方工具**：基本上可以全部成功转换CAJ
 2. **体积最小**：避免体积膨胀，且可以保留原文件中的文本层
 3. **速度快**：且不易出错
-4. **代码简单**：避免调用旧版caj2pdf的复杂且常出错的过程
+4. **代码简单**：避免调用旧版[caj2pdf](https://github.com/caj2pdf/caj2pdf)的复杂且常出错的过程
 5. **跨平台**：适用于多种操作系统
 
-以上方案，完全可以避免cajviewer、caj2pdf-qt等软件的弊端。个人认为，这可能目前最佳的解决方案。当然，您若有更好的方案，还请赐教！
+以上方案，完全可以避免[CAJViewer](https://cajviewer.cnki.net/)、[caj2pdf-qt](https://github.com/sainnhe/caj2pdf-qt)等软件的不足之处。个人认为，这可能目前较佳的解决方案。当然，您若有更好的方案，还请赐教！
 
 ---
 
