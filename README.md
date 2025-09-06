@@ -14,7 +14,7 @@
 ## 📋 方案步骤
 
 ### 第一步：收集文件
-使用Python脚本（`[01提取CAJ.py](https://github.com/maguang/caj2pdf/blob/main/01%E6%8F%90%E5%8F%96caj%20.py)`），批量自动遍历识别并移动CAJ/KDH/NH文件到指定文件夹，并将文件的原始位置保存到JSON文件。
+使用Python脚本（[01提取CAJ.py](https://github.com/maguang/caj2pdf/blob/main/01%E6%8F%90%E5%8F%96caj%20.py)），批量自动遍历识别并移动CAJ/KDH/NH文件到指定文件夹，并将文件的原始位置保存到JSON文件。
 
 **依赖要求**：
 - [Python](https://www.python.org/) 3.6+
@@ -37,7 +37,7 @@
 4. 将PDF文件保存到指定目录（建议与第一步的目标目录同级，命名为`output_pdfs`）
 
 ### 第三步：回迁PDF
-使用Python脚本（`[02回迁PDF.py](https://github.com/maguang/caj2pdf/blob/main/02%E5%9B%9E%E8%BF%81PDF.py]`），读取第一步保存的JSON文件，将PDF移动到对应的CAJ原位置。成功后，删除CAJ即可。
+使用Python脚本（[02回迁PDF.py](https://github.com/maguang/caj2pdf/blob/main/02%E5%9B%9E%E8%BF%81PDF.py]），读取第一步保存的JSON文件，将PDF移动到对应的CAJ原位置。成功后，删除CAJ即可。
 
 **依赖要求**：
 - [Python](https://www.python.org/) 3.6+
