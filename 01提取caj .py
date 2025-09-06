@@ -1,3 +1,5 @@
+# Copyright (c) 2025 马光
+# MIT License - see LICENSE file for details
 # -*- coding: utf-8 -*-
 import os
 import shutil
@@ -65,4 +67,5 @@ def collect_cnki_files():
 
 
 if __name__ == '__main__':
+
     collect_cnki_files()
