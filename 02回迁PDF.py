@@ -5,7 +5,7 @@ import shutil
 import json
 
 # ================== 配置区域 ==================
-PDF_DIR = r'D:\cnki_files'  # PDF所在目录
+PDF_DIR = r'D:\cnki_files\output_pdfs'  # PDF所在目录
 # 从自定义位置读取映射文件，一定要和生成的文件保持一致！
 PATH_MAP_FILE = r'D:\test\cnki_path_map.json'
 # ================== 配置结束 ==================
@@ -78,3 +78,4 @@ def move_pdfs_back():
 if __name__ == '__main__':
 
     move_pdfs_back()
+
