@@ -37,7 +37,7 @@
 4. 将PDF文件保存到指定目录（建议与第一步的目标目录同级，命名为`output_pdfs`）
 
 ### 第三步：回迁PDF
-使用Python脚本（[02回迁PDF.py](https://github.com/maguang/caj2pdf/blob/main/02%E5%9B%9E%E8%BF%81PDF.py]），读取第一步保存的JSON文件，将PDF移动到对应的CAJ原位置。成功后，删除CAJ即可。
+使用Python脚本（[02回迁PDF.py](https://github.com/maguang/caj2pdf/blob/main/02%E5%9B%9E%E8%BF%81PDF.py)），读取第一步保存的JSON文件，将PDF移动到对应的CAJ原位置。成功后，删除CAJ即可。
 
 **依赖要求**：
 - [Python](https://www.python.org/) 3.6+
